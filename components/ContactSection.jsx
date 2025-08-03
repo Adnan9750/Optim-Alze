@@ -195,7 +195,7 @@ const ContactSection = () => {
                                         referrerPolicy="no-referrer-when-downgrade"
                                         title="Office Location"
                                     ></iframe>
-                                </Box>A
+                                </Box>
                             </Box>
 
                         </Grid>
