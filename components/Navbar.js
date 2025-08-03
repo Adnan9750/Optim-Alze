@@ -85,9 +85,11 @@ const Navbar = () => {
                         {/* Logo */}
                         <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
                             <Box sx={{ display: 'flex', gap: 1, alignItems: 'center' }}>
-                                <img src='/logo.png' className='h-[100px] w-auto object-contain' alt='Logo' />
+                                {/* <img src='/logo.png' className='h-[100px] w-auto object-contain' alt='Logo' /> */}
                                 {/* <Code className="h-6 w-6" color={theme.palette.primary.main} />
                                 <Typography variant="h6" color="primary">Optim Alze</Typography> */}
+                                <img src='/emoji.svg' className="h-7 w-7" />
+                                <Typography sx={{ fontSize: '16px', fontWeight: '600', color: theme.palette.primary.main, }}>OptimAlze</Typography>
                             </Box>
                         </Box>
 

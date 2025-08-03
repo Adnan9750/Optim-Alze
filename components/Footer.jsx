@@ -1,4 +1,6 @@
-import { Box, Container, Divider, Grid, IconButton, Stack, Typography } from '@mui/material'
+'use client'
+
+import { Box, Container, Divider, Grid, IconButton, Stack, Typography, useTheme } from '@mui/material'
 import { Code, Linkedin } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
@@ -8,6 +10,8 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Footer = () => {
+
+    const theme = useTheme()
 
     const currentYear = new Date().getFullYear();
 
@@ -20,8 +24,9 @@ const Footer = () => {
                             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
                                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                                     <Link href="#home" className="flex items-center gap-2 ">
-                                        <Code className="h-6 w-6 text-[#B91C1C]" />
-                                        <Typography sx={{ fontSize: '18px', fontWeight: 'bold' }}>Optim Alze</Typography>
+                                        <img src='/emoji.svg' className="h-7 w-7" />
+                                        {/* <Code className="h-6 w-6 text-[#B91C1C]" /> */}
+                                        <Typography sx={{ fontSize: '16px',fontWeight:'600', color: theme.palette.primary.main, }}>OptimAlze</Typography>
                                     </Link>
 
                                     <Typography variant='body2' component='p'>
