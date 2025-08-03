@@ -94,7 +94,7 @@ const ProjectSection = () => {
           opacity: 0.5
         }}
       />
-      
+
       <Container maxWidth="lg">
         {/* Section Header */}
         <Box
@@ -126,7 +126,7 @@ const ProjectSection = () => {
               lineHeight: 1.2
             }}
           >
-            Our Innovative Products
+            Our Products
           </Typography>
           <Typography
             variant="body1"
@@ -152,7 +152,7 @@ const ProjectSection = () => {
           viewport={{ once: true }}
         >
           {products.map((product, index) => (
-            <Grid item size={{ xs: 12, sm: 6, md: 4 }} key={index}>
+            <Grid item size={{ xs: 12, sm: 6, }} key={index}>
               <Paper
                 component={motion.div}
                 variants={cardVariants}
@@ -210,7 +210,7 @@ const ProjectSection = () => {
                     </li>
                   ))}
                 </Box>
-{/* 
+                {/* 
                 <Button
                   variant="outlined"
                   color="primary"

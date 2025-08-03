@@ -12,7 +12,7 @@ const ServicesSection = () => {
     const servicesData = [
         {
             icon: <WorkflowIcon className="h-6 w-6" />,
-            title: "RAG (Retrieval-Augmented Generation) Systems",
+            title: "RAG Systems",
             description:
                 "Combine your internal data with LLMs for precise and contextual answers.",
             color: "bg-blue-500/10 text-blue-500",
@@ -26,7 +26,7 @@ const ServicesSection = () => {
         },
         {
             icon: <SparklesIcon className="h-6 w-6" />,
-            title: "Generative AI Automation",
+            title: "Gen AI Automation",
             description:
                 "Automate insight generation, customer support, document processing, and more using LLMs and fine-tuned models.",
             color: "bg-pink-500/10 text-pink-500",
@@ -75,7 +75,7 @@ const ServicesSection = () => {
                     <Grid container spacing={4}>
                         {
                             servicesData?.map((service, index) => (
-                                <Grid key={index} item size={{ xs: 12, sm: 6, md: 4 }}>
+                                <Grid key={index} item size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
                                     <Paper
                                         component={motion.div}
                                         initial={{ opacity: 0, y: 20 }}
@@ -88,7 +88,7 @@ const ServicesSection = () => {
                                             backdropFilter: 'blur(12px)',
                                             border: '1px solid #E0E0E0',
                                             boxShadow: '0 6px 20px rgba(0,0,0,0.06)',
-                                            height: { md: '240px' },
+                                            height: { md: '250px' },
                                             transition: 'all 0.3s ease',
                                             '&:hover': {
                                                 transform: 'translateY(-6px)',

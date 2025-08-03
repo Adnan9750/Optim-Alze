@@ -122,7 +122,7 @@ const Footer = () => {
                     <Divider sx={{ mt: 5 }} />
 
                     <Box sx={{ pt: 4, display: 'flex', flexDirection: { xs: 'column', md: 'row' }, justifyContent: 'space-between', alignItems: 'center' }}>
-                        <Typography variant='body2' sx={{ color: 'text.secondary' }}>© {currentYear} DevCo. All rights reserved.</Typography>
+                        <Typography variant='body2' sx={{ color: 'text.secondary' }}>© {currentYear} OptimAlze. All rights reserved.</Typography>
                         <Box sx={{ display: 'flex', gap: 3 }}>
                             {["Privacy Policy", "Terms of Service", "Cookie Policy"].map(
                                 (item) => (
