@@ -102,8 +102,15 @@ const theme = createTheme({
                 },
             },
         },
+        MuiChip: {
+            styleOverrides: {
+                outlined: {
+                    borderColor: '#5139FA',
+                    // color: '#5139FA',     
+                },
+            },
+        },
     },
 });
 
 export default theme;
- 

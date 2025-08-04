@@ -145,12 +145,12 @@ const Navbar = () => {
                     boxShadow: menuOpen ? '0px 4px 10px rgba(0, 0, 0, 0.1)' : 'none',
                     display: 'flex',
                     flexDirection: 'column',
-                    pt:7
+                    pt: { xs:7, md: 0 }
                 }}
             >
                 <Container maxWidth="xl">
                     <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <List sx={{ display: 'flex', flexDirection: 'column', gap: 2}}>
+                        <List sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
                             {navLinks.map(link => (
                                 <ListItemButton
                                     key={link.name}

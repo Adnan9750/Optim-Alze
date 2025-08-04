@@ -105,29 +105,21 @@ const ProjectSection = () => {
           transition={{ duration: 0.5 }}
           className="mb-16 text-center"
         >
-          <Chip
-            variant="outlined"
-            label="Products"
-            sx={{
-              mb: 3,
-              borderColor: theme.palette.primary.main,
-              color: theme.palette.primary.main,
-              fontWeight: 'medium'
-            }}
-          />
+          <Chip variant='outlined' label="Products" className="mb-3" />
           <Typography
             variant="h2"
             component="h1"
             sx={{
               fontWeight: 'bold',
-              mb: 2,
+              mb: 3,
               color: theme.palette.primary.main,
-              fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem' },
+              fontSize: { xs: '1.875rem', md: '2.25rem' },
               lineHeight: 1.2
             }}
           >
             Our Products
           </Typography>
+          
           <Typography
             variant="body1"
             sx={{
