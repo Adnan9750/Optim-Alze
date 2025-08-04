@@ -145,7 +145,7 @@ const Navbar = () => {
                     boxShadow: menuOpen ? '0px 4px 10px rgba(0, 0, 0, 0.1)' : 'none',
                     display: 'flex',
                     flexDirection: 'column',
-                    justifyContent:'center'
+                    pt:7
                 }}
             >
                 <Container maxWidth="xl">
