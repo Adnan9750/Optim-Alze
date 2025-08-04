@@ -53,7 +53,7 @@ const AboutSection = () => {
                                 lineHeight: 1.2
                             }}
                         >
-                            Who We Are
+                            Who we are
                         </Typography>
 
                         <Typography variant='body1' component='p'

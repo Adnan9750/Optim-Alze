@@ -57,7 +57,7 @@ const ServicesSection = () => {
                                 lineHeight: 1.2
                             }}
                         >
-                            What We Offer
+                            What we offer
                         </Typography>
 
                         <Typography variant='body1' component='p'

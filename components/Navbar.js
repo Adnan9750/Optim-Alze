@@ -28,7 +28,7 @@ const Navbar = () => {
         { name: 'About', href: '#about' },
         { name: 'Services', href: '#services' },
         { name: 'Products', href: '#products' },
-        { name: 'Founder', href: '#team' },
+        { name: 'Team', href: '#team' },
         { name: 'Contact', href: '#contact' }
     ];
 
@@ -144,12 +144,13 @@ const Navbar = () => {
                     transition: 'height 0.3s ease-in-out',
                     boxShadow: menuOpen ? '0px 4px 10px rgba(0, 0, 0, 0.1)' : 'none',
                     display: 'flex',
-                    flexDirection: 'column'
+                    flexDirection: 'column',
+                    justifyContent:'center'
                 }}
             >
                 <Container maxWidth="xl">
                     <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <List sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+                        <List sx={{ display: 'flex', flexDirection: 'column', gap: 2}}>
                             {navLinks.map(link => (
                                 <ListItemButton
                                     key={link.name}

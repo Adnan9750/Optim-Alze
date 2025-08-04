@@ -14,36 +14,36 @@ const TeamSection = () => {
     const teamData = [
         {
             name: 'Sajjad Hussain',
-            role: "CEO & Co-founder",
+            role: "Co-founder",
             image: '/sajjad.jpg',
-            bio: "With over 15 years of experience in tech leadership, John drives our company's vision and strategy.",
+            // bio: "With over 15 years of experience in tech leadership, John drives our company's vision and strategy.",
             linkedin: "https://www.linkedin.com/in/sajjad-hussain-6651931a/",
             // email: "sajjad.hussain@optimaize.be"
         },
         {
-            name: 'Moazam Hussain',
-            role: "CEO & Co-founder",
+            name: 'Mouzzam Hussain',
+            role: "Co-founder",
             image: '/moazam.jpg',
-            bio: "With over 15 years of experience in tech leadership, John drives our company's vision and strategy.",
+            // bio: "With over 15 years of experience in tech leadership, John drives our company's vision and strategy.",
             linkedin: "https://www.linkedin.com/in/mouzzamhussain/",
             // email: "mouzzam.hussain@optimaize.be"
         },
         {
             name: 'Hammad Shahid',
-            role: "CEO & Co-founder",
+            role: "Co-founder",
             image: '/hammad.jpg',
-            bio: "With over 15 years of experience in tech leadership, John drives our company's vision and strategy.",
+            // bio: "With over 15 years of experience in tech leadership, John drives our company's vision and strategy.",
             linkedin: "https://www.linkedin.com/in/hammad-shahid-295b6878/",
             // email: "hammad.shahid@optimaize.be"
         },
-        // {
-        //     name: 'Hamza Shahid',
-        //     role: "Generative AI Engineer",
-        //     image: '/hamza.png',
-        //     bio: "With over 15 years of experience in tech leadership, John drives our company's vision and strategy.",
-        //     linkedin: "https://www.linkedin.com/in/hamza-shahid-ai/",
-        //     email: "hamza.shahid@optimaize.be"
-        // }
+        {
+            name: 'Hamza Shahid',
+            role: "Generative AI Engineer",
+            image: '/hamza.png',
+            // bio: "With over 15 years of experience in tech leadership, John drives our company's vision and strategy.",
+            linkedin: "https://www.linkedin.com/in/hamza-shahid-ai/",
+            // email: "hamza.shahid@optimaize.be"
+        }
     ]
 
     const iconVariants = {
@@ -56,7 +56,7 @@ const TeamSection = () => {
             <section id="team" className="py-24 bg-[#F5F5F580]">
                 <Container maxWidth='lg'>
                     <Box className="mb-16 text-center">
-                        <Chip variant='outlined' label="Founder" className="mb-3" />
+                        <Chip variant='outlined' label="Team" className="mb-3" />
                         <Typography
                             variant="h2"
                             component="h1"
@@ -68,7 +68,7 @@ const TeamSection = () => {
                                 lineHeight: 1.2
                             }}
                         >
-                            Our Founder
+                            Our Team
                         </Typography>
                         <Typography variant='body1' component='p'
                             sx={{

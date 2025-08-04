@@ -125,7 +125,7 @@ const HeroSection = () => {
                     zIndex: 50
                   }}
                 >
-                  Optim Alze
+                  OptimAlze
                 </Typography>
 
                 <Typography
